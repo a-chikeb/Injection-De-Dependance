@@ -3,8 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dao" class="com.programming.SDI.dao.IDaoImpl"/>
-    <bean id="metier" class="com.programming.SDI.metier.IMetierImpl">
-        <property name="dao" ref="dao"/>
+    <!--CDI Beans-->
+    <bean id="dao2" class="com.programming.CDI.dao.IDaoImpl"/>
+    <bean id="metier2" class="com.programming.CDI.metier.IMetierImpl">
+        <constructor-arg>
+            <bean class="com.programming.CDI.dao.IDaoImpl"/>
+        </constructor-arg>
     </bean>
+
 </beans>
