@@ -1,0 +1,5 @@
+.idea
+./DependencyInjection/.idea
+./DependencyInjection/out
+./DependencyInjection-Maven/.idea
+./DependencyInjection-Maven/target
