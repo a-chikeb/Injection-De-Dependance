@@ -1,0 +1,2 @@
+com.programming.CDI.ext.IDaoImpl2
+com.programming.CDI.metier.IMetierImpl

@@ -1,2 +1,2 @@
-com.programming.SDI.ext.IDaoImpl2
+com.programming.SDI.dao.IDaoImpl
 com.programming.SDI.metier.IMetierImpl
